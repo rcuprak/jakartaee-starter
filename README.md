@@ -1,5 +1,5 @@
 # javakartaee-starter
-This is a JakartaEE 9 "starter project" to help you start developing your own Jakarta EE 9 application.
+This is a JakartaEE 10 "starter project" to help you start developing your own Jakarta EE 10 application.
 
 This starter application has the following features:
  * Payara 6
