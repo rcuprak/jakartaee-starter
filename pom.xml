@@ -40,8 +40,8 @@
                 <configuration>
                     <toolchains>
                         <jdk>
-                            <version>11</version>
-                            <vendor>oracle</vendor>
+                            <version>21</version>
+                            <vendor>zulu</vendor>
                         </jdk>
                     </toolchains>
                 </configuration>
