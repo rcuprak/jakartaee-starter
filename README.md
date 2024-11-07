@@ -1,8 +1,8 @@
 # jakartaee-starter
-This is a JakartaEE 10 "starter project" to help you start developing your own Jakarta EE 10 application.
+This is a JakartaEE 11 "starter project" to help you start developing your own Jakarta EE 10 application.
 
 This starter application has the following features:
- * Payara 6
+ * GlassFish 8
  * Maven based
  * Java 21
  * Sample JSF page
@@ -46,7 +46,7 @@ To build this project:
  ````
 * mvn package 
 * cd target/
-* If you are using Payara 6:
+* If you are using GlassFish 8:
   * asadmin start-domain domain1 (default server non-production server configuration)
   * asadmin deploy starter-1.1.war (then goto https://localhost:8080/)
   * In your web browser: https://localhost:8080/starter
