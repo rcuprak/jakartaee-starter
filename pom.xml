@@ -8,7 +8,7 @@
     <name>starter</name>
     <url>https://github.com/rcuprak/jakartaee-starter</url>
     <properties> 
-        <version.org.jboss.arquillian>1.7.1.Final</version.org.jboss.arquillian>
+        <version.org.jboss.arquillian>1.9.1.Final</version.org.jboss.arquillian>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
@@ -21,15 +21,15 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>3.13.0</version>
                 <configuration>
-                    <release>11</release>
+                    <release>21</release>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-toolchains-plugin</artifactId>
-                <version>1.1</version>
+                <version>3.2.0</version>
                 <executions>
                     <execution>
                         <goals>
@@ -71,38 +71,38 @@
         <dependency>
             <groupId>org.jboss.arquillian</groupId>
             <artifactId>arquillian-bom</artifactId>
-            <version>1.7.1.Final</version>
+            <version>1.9.1.Final</version>
             <scope>test</scope>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.jboss.arquillian.junit5</groupId>
             <artifactId>arquillian-junit5-container</artifactId>
-            <version>1.7.1.Final</version>
+            <version>1.9.1.Final</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>fish.payara.arquillian</groupId>
             <artifactId>arquillian-payara-server-embedded</artifactId>
-            <version>3.0.alpha8</version>
+            <version>3.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>fish.payara.extras</groupId>
             <artifactId>payara-embedded-all</artifactId>
-            <version>6.2023.8</version>
+            <version>6.2024.10</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.0</version>
+            <version>5.11.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.0</version>
+            <version>5.11.3</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

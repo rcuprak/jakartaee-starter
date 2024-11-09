@@ -3,14 +3,16 @@ package org.ctjava.starter;
 import jakarta.annotation.PostConstruct;
 import jakarta.ejb.Singleton;
 import jakarta.ejb.Startup;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.Observes;
+
 import java.util.logging.Logger;
 
 /**
  * Simple start-up bean. The post-construct method fires when the server is started.
  * @author Ryan Cuprak
  */
-@Singleton
-@Startup
+@ApplicationScoped
 public class StartupBean {
 
     /**
@@ -21,9 +23,7 @@ public class StartupBean {
     /**
      * Executes on startup, no need for a "startup" servlet.
      */
-    @PostConstruct
-    public void init() {
-        LOGGER.info("Application initializing...");
+    public void init(@Observes Startup startup) {
+        LOGGER.info("Startup!");
     }
-
 }
