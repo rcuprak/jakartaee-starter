@@ -1,7 +1,5 @@
 package org.ctjava.starter;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.ejb.Singleton;
 import jakarta.ejb.Startup;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
