@@ -3,7 +3,8 @@ This is a JakartaEE 10 "starter project" to help you start developing your own J
 
 This starter application has the following features:
  * Maven based
- * Java 21
+ * Payara or TomeEE
+ * Java 21+
  * Sample JSF page
  * Sample CDI bean and test
  * Arquillian integration tests
@@ -33,7 +34,7 @@ In ~/.m2/toolchain.xml make sure you have a Java 21 JVM defined that matches the
 ## Building & Running
 
 To build this project:
-* For Java 21: \
+* For Java 21+: \
 ````
   export JAVA_TOOL_OPTIONS="-Djdk.util.zip.disableZip64ExtraFieldValidation=true \
   -Djdk.attach.allowAttachSelf=true \
